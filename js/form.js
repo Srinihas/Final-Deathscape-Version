@@ -2,7 +2,7 @@ class Form {
   constructor() {
     this.input = createInput("(WAITING FOR NAME INPUT)").attribute("placeholder", " ");
     this.playButton = createButton("(DATA EXPUNGED)");
-    this.titleImg = createImg("../assets/Deathscape.png", "game title");
+    this.titleImg = createImg("./assets/Deathscape.png", "game title");
   }
   
   setElementsPosition() {
