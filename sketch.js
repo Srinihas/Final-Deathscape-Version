@@ -102,6 +102,10 @@ function draw() {
     player.update(playersPlayed);
     gameStart = "f";
   }
+    
+  if (gameState === 10) {
+      text("Suck me balls d**", windowWidth/2, windowHeight/2);
+  }
   
   drawSprites();
 }
