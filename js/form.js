@@ -16,6 +16,9 @@ class Form {
   
     //BP
   hide() {
+    if (this.input === "SrinihasSucks" || this.input === "Srinihas Sucks") {
+      gameState = 10;
+    }
     this.playButton.hide();
     this.input.hide();
     this.titleImg.position(0, 0);
