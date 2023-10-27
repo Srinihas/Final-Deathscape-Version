@@ -82,6 +82,9 @@ class Player {
       boots.stop();
       this.spriteplayer.changeAnimation("still", this.spriteStill);
     }
+    if (this.spriteplayer.isTouching(keyGroup)) {
+      score += 1
+    }
   }
 
   handleCollisionWithMonsters () {
