@@ -19,6 +19,7 @@ var deathDamage;
 var rickRoll;
 var playerFilledForm = false;
 var jumpScareHappened = false;
+var score;
 
 function preload() {
     tunnelSound = loadSound("./Assets/mixkit-horror-sci-fi-wind-tunnel-894.wav");
@@ -51,6 +52,7 @@ function setup() {
   health = 100;
   deathDamage = 100;
   gameStart = false;
+  score = 0;
 
   player = new Player();
   player.create();
