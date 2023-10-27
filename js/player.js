@@ -33,6 +33,8 @@ class Player {
 
     this.handleCollisionWithMonsters();
     this.spriteplayer.collide(wallieGroup);
+    
+    this.spawnKey();
 
   }
 
@@ -130,7 +132,6 @@ class Player {
       wallieGroup.add(wall);
     }
 
-    this.spawnKey();
   }
 
   spawnKey() {
